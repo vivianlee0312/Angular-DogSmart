@@ -1,0 +1,29 @@
+<table class="table table-striped">
+<thead>
+	<!-- <th>Dog Breed</th>
+	<th>Picture</th>
+	<th>Baby</th>
+	<th>Young</th>
+	<th>Adult</th>
+	<th>Senior</th> -->
+	
+</thead>
+<tbody>
+	<tr ng-repeat="rowData in countries">
+		<!-- <td>{{rowData["Dog Breed"]}}</td> -->
+		<td><img ng-src="{{rowData.Picture01.Image}}" />
+			 <div class="row-equal">{{rowData.Picture01["Description"]}}</div>
+		</td>
+		<td><img ng-src="{{rowData.Picture02.Image}}" />
+			 <div class="row-equal">{{rowData.Picture02["Description"]}}</div>
+		</td>
+		<td><img ng-src="{{rowData.Picture03.Image}}" />
+			 <div class="row-equal">{{rowData.Picture03["Description"]}}</div>
+		</td>
+		<td><img ng-src="{{rowData.Picture04.Image}}" />
+			 <div class="row-equal">{{rowData.Picture04["Description"]}}</div>
+		</td>		
+	</tr>
+</tbody>
+</table>   
+

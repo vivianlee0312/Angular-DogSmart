@@ -1,0 +1,184 @@
+<div class="mainForm">
+	
+
+	<form ng-submit="submitHandler()" name="serviceForm" >
+		
+		<h1>Appointment Form</h1>
+		<md-content class="md-no-momentum">
+
+			<md-input-container class=" md-block">
+				<label>First Name</label>
+
+      			<input required ng-model="form.firstnames" name="firstName" type="text">
+
+	      		<div ng-messages="serviceForm.firstName.$error">
+		          <div ng-message="required">Please enter your First Name</div>
+		        </div>
+
+			</md-input-container>
+
+			<md-input-container class=" md-block">
+				<label>Last Name</label>
+
+      			<input required ng-model="form.lastnames" name="lastName" type="text">
+
+	      		<div ng-messages="serviceForm.lastName.$error">
+		          <div ng-message="required">Please enter your Last Name</div>
+		        </div>
+
+			</md-input-container>
+
+			<md-input-container class="md-icon-float md-block">
+				<label>Dog's Name</label>
+
+      			<input required ng-model="form.dognames" name="dogName" type="text">
+
+	      		<div ng-messages="serviceForm.dogName.$error">
+		          <div ng-message="required">Please enter your Doggie's Name</div>
+		        </div>
+
+			</md-input-container>
+
+			<md-input-container class="md-icon-float md-block">
+				<label>Contact Number</label>
+
+      			<input required ng-model="form.contactnumbers" name="contactNumber" type="text">
+
+	      		<div ng-messages="serviceForm.contactNumber.$error">
+		          <div ng-message="required">Please enter your Contact Number</div>
+		        </div>
+			</md-input-container>
+
+			<md-input-container class="md-icon-float md-block">
+				<label>Service Type</label>
+
+				<select class="items" ng-model="form.items">
+					<option value="" disabled>Select One</option>
+					<option value="Grooming Salon">Grooming Salon</option>
+     				<option value="Doggie Training">Doggie Training</option>
+     				<option value="Doggie Day Camp">Doggie Day Camp</option>
+     				<option value="Doggie Hospital">Doggie Hospital</option>
+				</select>
+			</md-input-container>
+
+			<md-input-container class="md-icon-float md-block">
+				<label>Date and Time</label>
+
+				<div class="month">
+					<select ng-model="form.months" > 
+						<option value="" disabled>Month</option>
+						<option value="Jan">Jan</option>
+     					<option value="Feb">Feb</option>
+     					<option value="Mar1">Mar</option>
+     				 	<option value="Apr">Apr</option>
+     				 	<option value="May">May</option>
+	     				<option value="Jun">Jun</option>
+	     				<option value="Jul">Jul</option>
+	     				<option value="Aug">Aug</option>
+	     				<option value="Sept">Sept</option>
+	     				<option value="Oct">Oct</option>
+	     				<option value="Nov">Nov</option>
+	     				<option value="Dec">Dec</option>
+					</select>
+				</div>	
+
+				
+				<div class="date">
+					<select value="Date" ng-model="form.dates" >
+						<option value="" disabled>Date</option>
+						<option value="01">01</option>
+     					<option value="02">02</option>
+     					<option value="03">03</option>
+     				 	<option value="04">04</option>
+     				 	<option value="05">05</option>
+	     				<option value="06">06</option>
+	     				<option value="07">07</option>
+	     				<option value="08">08</option>
+	     				<option value="09">09</option>
+	     				<option value="10">10</option>
+	     				<option value="11">11</option>
+	     				<option value="12">12</option>
+	     				<option value="13">13</option>
+     					<option value="14">14 </option>
+     					<option value="15">15</option>
+     				 	<option value="16">16</option>
+     				 	<option value="17">17</option>
+	     				<option value="18">18</option>
+	     				<option value="19">19</option>
+	     				<option value="20">20</option>
+	     				<option value="21">21</option>
+	     				<option value="22">22</option>
+	     				<option value="23">23</option>
+	     				<option value="24">24</option>
+	     				<option value="25">25</option>
+     					<option value="26">26</option>
+     					<option value="27">27</option>
+     				 	<option value="28">28</option>
+     				 	<option value="29">29</option>
+	     				<option value="30">30</option>
+	     				<option value="31">31</option>
+					</select>
+				</div>
+
+				
+				<div class="hour">
+					<select value="Hour" ng-model="form.hours" >
+						<option value="" disabled>Hour</option>
+						<option value="01">01</option>
+     					<option value="02">02</option>
+     					<option value="03">03</option>
+     				 	<option value="04">04</option>
+     				 	<option value="05">05</option>
+	     				<option value="06">06</option>
+	     				<option value="07">07</option>
+	     				<option value="08">08</option>
+	     				<option value="09">09</option>
+	     				<option value="10">10</option>
+	     				<option value="11">11</option>
+	     				<option value="12">12</option>
+					</select> 
+				</div>
+
+
+				<div class="minute">
+					<select value="Minute" ng-model="form.minutes">
+						<option value="" disabled>Minutes</option>
+						<option value="00">00</option>
+     					<option value="30">30</option>
+					</select>
+				</div>
+
+
+				<div class="ampm">
+					<select value="Ampm" ng-model="form.ampms" >
+						<option value="" disabled>am/pm</option>
+						<option value="am">am</option>
+     					<option value="pm">pm</option>
+					</select>
+				</div>
+
+	 
+			</md-input-container>
+
+			<!-- <md-button class="md-raised md-primary submit-button" ng-click="submitHandler()" ng-disabled="serviceForm.$pristine || serviceForm.$invalid"> Submit</md-button> -->
+			<input type="submit" id="submit" value="Submit" />
+			<!-- Submit</md-button> -->
+		</md-content>
+
+	</form>
+
+	<hr />
+</div>
+
+<!-- <pre>todos={{form.items}}</pre>
+
+<pre>formObjects={{formObjects}}</pre>
+<pre>formObjects={{formObjects.data}}</pre>
+
+
+
+<pre>items={{formObjects.datas.items}}</pre>
+<pre>formStarts={{formStarts}}</pre> -->
+
+
+

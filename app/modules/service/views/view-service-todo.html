@@ -1,0 +1,21 @@
+<div class="main col-sm-6 col-sm-offset-3">
+<h2>You've Successfully Booked an Appointment!</h2>
+</div>
+
+<div class="todoList" ng-repeat="x in formStarts track by $index">
+
+	<label>Appointment {{$index+1}}: &nbsp; </label>
+
+    <span ng-model="formStarts"> {{x.firstnames[0]}}, {{x.lastnames[0]}} booked {{x.items[0]}} for {{x.dognames[0]}} <br> Date and Time: {{x.months[0]}}, {{x.dates[0]}} at {{x.hours[0]}}:{{x.minutes[0]}} {{x.ampms[0]}} <br> Contact Number: {{x.contactnumbers[0]}} </span>
+	      		
+</div>
+
+ 
+<!-- <pre>todos={{formObjects.items}}</pre>
+<pre>firstnames={{formObjects.firstnames}}</pre>
+<pre>items={{formObjects.datas.items}}</pre>
+<pre>formStarts={{formStarts}}</pre>
+<pre>formStarts={{formStarts[0].items}}</pre> -->
+
+<div class="backToService"> <p>Boook another Appointment <a ui-sref="dashboard.full.service">Service</a></p></div>
+
