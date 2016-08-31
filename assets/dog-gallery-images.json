@@ -1,0 +1,38 @@
+[{
+    "Picture01": {
+    	"Image": "img/gallery01.svg",
+    	"Description": "Selfie 1! "
+    }, 
+
+     "Picture02": {
+    	"Image": "img/gallery02.svg",
+    	"Description": "Selfie 2! "
+    },
+
+     "Picture03": {
+    	"Image": "img/gallery03.svg",
+    	"Description": "Selfie 3! "
+    }, 
+
+     "Picture04": {
+    	"Image": "img/gallery04.svg",
+    	"Description": "Selfie 4! "
+    }     
+}, {
+    "Picture01": {
+    	"Image": "img/gallery05.svg",
+    	"Description": "Selfie 5! "
+    },  
+     "Picture02": {
+    	"Image": "img/gallery06.svg",
+    	"Description": "Selfie 6! "
+    },  
+     "Picture03": {
+    	"Image": "img/gallery07.svg",
+    	"Description": "Selfie 7! "
+    },  
+     "Picture04": {
+    	"Image": "img/gallery08.svg",
+    	"Description": "Selfie 8! "
+    }  
+}]

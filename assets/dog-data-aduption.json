@@ -1,0 +1,80 @@
+[{
+    "Dog Breed": "Labrador Retriever",
+    "Picture": "img/dog01.svg",
+    "Baby": 889,
+    "Young": 1329,
+    "Adult": 2458,
+    "Senior": 564
+}, {
+    
+    "Dog Breed": "German Shepherd Dog",
+    "Picture": "img/dog02.svg",
+    "Baby": 532,
+    "Young": 1098,
+    "Adult": 1667,
+    "Senior": 342
+}, {
+    
+    "Dog Breed": "Golden Retriever",
+    "Picture": "img/dog03.svg",
+    "Baby": 764,
+    "Young": 1254,
+    "Adult": 2239,
+    "Senior": 237
+}, {
+    
+    "Dog Breed": "Beagle",
+    "Picture": "img/dog04.svg",
+    "Baby": 439,
+    "Young": 876,
+    "Adult": 1350,
+    "Senior": 325
+}, {
+    
+    "Dog Breed": "Bulldog",
+    "Picture": "img/dog05.svg",
+    "Baby": 398,
+    "Young": 549,
+    "Adult": 2887,
+    "Senior": 144
+}, {
+    
+    "Dog Breed": "Yorkshire Terrier",
+    "Picture": "img/dog06.svg",
+    "Baby": 408,
+    "Young": 876,
+    "Adult": 1555,
+    "Senior": 347
+}, {
+    
+    "Dog Breed": "Boxer",
+    "Picture": "img/dog07.svg",
+    "Baby": 662,
+    "Young": 751,
+    "Adult": 1678,
+    "Senior": 224
+}, {
+    
+    "Dog Breed": "Poodle",
+    "Picture": "img/dog08.svg",
+    "Baby": 541,
+    "Young": 987,
+    "Adult": 1476,
+    "Senior": 234
+}, {
+    
+    "Dog Breed": "Rottweiler",
+    "Picture": "img/dog09.svg",
+    "Baby": 336,
+    "Young": 645,
+    "Adult": 1450,
+    "Senior": 247
+}, {
+    
+    "Dog Breed": "Dachshund",
+    "Picture": "img/dog10.svg",
+    "Baby": 387,
+    "Young": 763,
+    "Adult": 1139,
+    "Senior": 220
+}]
